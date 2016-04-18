@@ -30,7 +30,7 @@ NSString *FindLetter(int nCode) {
 		case 8786:
 			strValue = @"AN";
 			break;
-			strValue = @"ANG";
+//			strValue = @"ANG";
 			break;
 		case 5974:
 		case 6254:
@@ -211,7 +211,7 @@ NSString *FindLetter(int nCode) {
 		case 7769:
 			strValue = @"CA";
 			break;
-			strValue = @"CAI";
+//			strValue = @"CAI";
 			break;
 		case 6978:
 		case 7078:
@@ -402,7 +402,7 @@ NSString *FindLetter(int nCode) {
 		case 8626:
 			strValue = @"CHUO";
 			break;
-			strValue = @"CI";
+//			strValue = @"CI";
 			break;
 		case 6075:
 		case 6358:
@@ -727,7 +727,7 @@ NSString *FindLetter(int nCode) {
 		case 7731:
 			strValue = @"FENG";
 			break;
-			strValue = @"FO";
+//			strValue = @"FO";
 			break;
 		case 8330:
 			strValue = @"FOU";
@@ -831,7 +831,7 @@ NSString *FindLetter(int nCode) {
 		case 8732:
 			strValue = @"GE";
 			break;
-			strValue = @"GEI";
+//			strValue = @"GEI";
 			break;
 		case 5608:
 		case 6102:
@@ -897,7 +897,7 @@ NSString *FindLetter(int nCode) {
 		case 8027:
 			strValue = @"GUA";
 			break;
-			strValue = @"GUAI";
+//			strValue = @"GUAI";
 			break;
 		case 5736:
 		case 6124:
@@ -997,9 +997,9 @@ NSString *FindLetter(int nCode) {
 		case 8471:
 			strValue = @"HE";
 			break;
-			strValue = @"HEI";
+//			strValue = @"HEI";
 			break;
-			strValue = @"HEN";
+//			strValue = @"HEN";
 			break;
 		case 6231:
 		case 7181:
@@ -1614,9 +1614,9 @@ NSString *FindLetter(int nCode) {
 		case 8639:
 			strValue = @"LUAN";
 			break;
-			strValue = @"L®µE";
+//			strValue = @"L®µE";
 			break;
-			strValue = @"LUN";
+//			strValue = @"LUN";
 			break;
 		case 5732:
 		case 5789:
@@ -1771,7 +1771,7 @@ NSString *FindLetter(int nCode) {
 		case 8504:
 			strValue = @"MING";
 			break;
-			strValue = @"MIU";
+//			strValue = @"MIU";
 			break;
 		case 5851:
 		case 6052:
@@ -1847,12 +1847,12 @@ NSString *FindLetter(int nCode) {
 		case 5811:
 			strValue = @"NE";
 			break;
-			strValue = @"NEI";
+//			strValue = @"NEI";
 			break;
 		case 7705:
 			strValue = @"NEN";
 			break;
-			strValue = @"NENG";
+//			strValue = @"NENG";
 			break;
 		case 5703:
 		case 5972:
@@ -1874,7 +1874,7 @@ NSString *FindLetter(int nCode) {
 		case 8683:
 			strValue = @"NIAN";
 			break;
-			strValue = @"NIANG";
+//			strValue = @"NIANG";
 			break;
 		case 6064:
 		case 7053:
@@ -1890,7 +1890,7 @@ NSString *FindLetter(int nCode) {
 		case 8570:
 			strValue = @"NIE";
 			break;
-			strValue = @"NIN";
+//			strValue = @"NIN";
 			break;
 		case 5690:
 		case 6344:
@@ -1921,9 +1921,9 @@ NSString *FindLetter(int nCode) {
 		case 8412:
 			strValue = @"N®µ";
 			break;
-			strValue = @"NUAN";
+//			strValue = @"NUAN";
 			break;
-			strValue = @"NUE";
+//			strValue = @"NUE";
 			break;
 		case 5748:
 		case 6289:
@@ -2278,7 +2278,7 @@ NSString *FindLetter(int nCode) {
 		case 7267:
 			strValue = @"RAO";
 			break;
-			strValue = @"RE";
+//			strValue = @"RE";
 			break;
 		case 5680:
 		case 6083:
@@ -2289,9 +2289,9 @@ NSString *FindLetter(int nCode) {
 		case 8137:
 			strValue = @"REN";
 			break;
-			strValue = @"RENG";
+//			strValue = @"RENG";
 			break;
-			strValue = @"RI";
+//			strValue = @"RI";
 			break;
 		case 6541:
 		case 6585:
@@ -2327,7 +2327,7 @@ NSString *FindLetter(int nCode) {
 		case 8224:
 			strValue = @"RUI";
 			break;
-			strValue = @"RUN";
+//			strValue = @"RUN";
 			break;
 		case 5728:
 		case 8372:
@@ -2361,11 +2361,11 @@ NSString *FindLetter(int nCode) {
 		case 8694:
 			strValue = @"SAO";
 			break;
-			strValue = @"SE";
+//			strValue = @"SE";
 			break;
-			strValue = @"SEN";
+//			strValue = @"SEN";
 			break;
-			strValue = @"SENG";
+//			strValue = @"SENG";
 			break;
 		case 6394:
 		case 7606:
@@ -2484,9 +2484,9 @@ NSString *FindLetter(int nCode) {
 		case 7055:
 			strValue = @"SHUANG";
 			break;
-			strValue = @"SHUI";
+//			strValue = @"SHUI";
 			break;
-			strValue = @"SHUN";
+//			strValue = @"SHUN";
 			break;
 		case 6184:
 		case 6287:
@@ -3352,7 +3352,7 @@ NSString *FindLetter(int nCode) {
 		case 8423:
 			strValue = @"ZE";
 			break;
-			strValue = @"ZEI";
+//			strValue = @"ZEI";
 			break;
 		case 5858:
 			strValue = @"ZEN";
