@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		913F6BD31CE1631E00994982 /* LZSortTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 913F6BD21CE1631E00994982 /* LZSortTool.m */; };
 		918EAAC81CAB73C700DB82DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 918EAAC71CAB73C700DB82DF /* main.m */; };
 		918EAACB1CAB73C700DB82DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 918EAACA1CAB73C700DB82DF /* AppDelegate.m */; };
 		918EAACE1CAB73C700DB82DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 918EAACD1CAB73C700DB82DF /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		918EAAD91CAB73C700DB82DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918EAAD71CAB73C700DB82DF /* LaunchScreen.storyboard */; };
 		918EAAE41CAB73C700DB82DF /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 918EAAE31CAB73C700DB82DF /* ____Tests.m */; };
 		918EAAEF1CAB73C700DB82DF /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 918EAAEE1CAB73C700DB82DF /* ____UITests.m */; };
-		91902B051CABBE0A001BBF73 /* LQQNameSortTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 91902B011CABBE0A001BBF73 /* LQQNameSortTool.m */; };
 		91902B061CABBE0A001BBF73 /* ChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 91902B041CABBE0A001BBF73 /* ChineseToPinyin.m */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		913F6BD11CE1631E00994982 /* LZSortTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSortTool.h; sourceTree = "<group>"; };
+		913F6BD21CE1631E00994982 /* LZSortTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSortTool.m; sourceTree = "<group>"; };
 		918EAAC31CAB73C700DB82DF /* 名称排序.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "名称排序.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		918EAAC71CAB73C700DB82DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		918EAAC91CAB73C700DB82DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,8 +57,6 @@
 		918EAAEA1CAB73C700DB82DF /* 名称排序UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "名称排序UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		918EAAEE1CAB73C700DB82DF /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		918EAAF01CAB73C700DB82DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91902B001CABBE0A001BBF73 /* LQQNameSortTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQQNameSortTool.h; sourceTree = "<group>"; };
-		91902B011CABBE0A001BBF73 /* LQQNameSortTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQQNameSortTool.m; sourceTree = "<group>"; };
 		91902B031CABBE0A001BBF73 /* ChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyin.h; sourceTree = "<group>"; };
 		91902B041CABBE0A001BBF73 /* ChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,9 +153,9 @@
 		91902AFF1CABBE0A001BBF73 /* LQQSortData */ = {
 			isa = PBXGroup;
 			children = (
-				91902B001CABBE0A001BBF73 /* LQQNameSortTool.h */,
-				91902B011CABBE0A001BBF73 /* LQQNameSortTool.m */,
 				91902B021CABBE0A001BBF73 /* pinyin */,
+				913F6BD11CE1631E00994982 /* LZSortTool.h */,
+				913F6BD21CE1631E00994982 /* LZSortTool.m */,
 			);
 			path = LQQSortData;
 			sourceTree = "<group>";
@@ -299,10 +299,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91902B051CABBE0A001BBF73 /* LQQNameSortTool.m in Sources */,
 				918EAACE1CAB73C700DB82DF /* ViewController.m in Sources */,
 				918EAAD41CAB73C700DB82DF /* ____.xcdatamodeld in Sources */,
 				91902B061CABBE0A001BBF73 /* ChineseToPinyin.m in Sources */,
+				913F6BD31CE1631E00994982 /* LZSortTool.m in Sources */,
 				918EAACB1CAB73C700DB82DF /* AppDelegate.m in Sources */,
 				918EAAC81CAB73C700DB82DF /* main.m in Sources */,
 			);

@@ -1,26 +1,27 @@
 //
-//  LQQNameSortTool.m
+//  LZSortTool.m
 //  名称排序
 //
-//  Created by Artron_LQQ on 16/3/30.
+//  Created by Artron_LQQ on 16/5/10.
 //  Copyright © 2016年 Artup. All rights reserved.
 //
 
-#import "LQQNameSortTool.h"
+#import "LZSortTool.h"
 #import "ChineseToPinyin.h"
 
 static NSArray *lqq_resultArray = nil;
-@interface LQQNameSortTool ()
+@interface LZSortTool ()
 
 @property (strong,nonatomic)NSArray *resultArray;
 @property (strong,nonatomic)NSMutableDictionary *sourceDic;
 @end
-@implementation LQQNameSortTool
 
-+ (NSArray*)LQQSortDataByFirstLetterWithArray:(NSArray*)sourceArray isIncludeKeys:(BOOL)isKey{
+@implementation LZSortTool
+
++ (NSArray*)LZSortDataByFirstLetterWithArray:(NSArray*)sourceArray isIncludeKeys:(BOOL)isKey{
     
     //按名字的首字母分类
-    NSArray *arr = [self LQQSortDataByFirstLetterWithArray:sourceArray];
+    NSArray *arr = [self LZSortDataByFirstLetterWithArray:sourceArray];
     if (isKey) {
         NSMutableArray *array = [NSMutableArray arrayWithCapacity:0];
         //遍历已排序的字母数组
@@ -37,7 +38,7 @@ static NSArray *lqq_resultArray = nil;
     }
 }
 
-+ (NSArray*)LQQSortDataByFirstLetterWithArray:(NSArray*)sourceArray {
++ (NSArray*)LZSortDataByFirstLetterWithArray:(NSArray*)sourceArray {
     
     NSMutableArray *resultArray = [[NSMutableArray alloc]init];
     NSMutableDictionary *sourceDic = [[NSMutableDictionary alloc]init];
@@ -72,7 +73,7 @@ static NSArray *lqq_resultArray = nil;
         NSArray *arr = [((NSArray*)[sourceDic objectForKey:key]) sortedArrayUsingComparator:^NSComparisonResult(id obj1, id obj2) {
             return [obj2 localizedCompare:obj1];
         }];
-
+        
         [resultArray addObject:arr];
     }
     
@@ -100,25 +101,25 @@ static NSArray *lqq_resultArray = nil;
         return @"S";
     else
         return nil;
-
-//    if([self searchResult:string searchText:@"曾"])
-//        return @"Z";
-//    else if([self searchResult:string searchText:@"解"])
-//        return @"X";
-//    else if([self searchResult:string searchText:@"仇"])
-//        return @"Q";
-//    else if([self searchResult:string searchText:@"朴"])
-//        return @"P";
-//    else if([self searchResult:string searchText:@"查"])
-//        return @"Z";
-//    else if([self searchResult:string searchText:@"能"])
-//        return @"N";
-//    else if([self searchResult:string searchText:@"乐"])
-//        return @"Y";
-//    else if([self searchResult:string searchText:@"单"])
-//        return @"S";
-//    else
-//        return nil;
+    
+    //    if([self searchResult:string searchText:@"曾"])
+    //        return @"Z";
+    //    else if([self searchResult:string searchText:@"解"])
+    //        return @"X";
+    //    else if([self searchResult:string searchText:@"仇"])
+    //        return @"Q";
+    //    else if([self searchResult:string searchText:@"朴"])
+    //        return @"P";
+    //    else if([self searchResult:string searchText:@"查"])
+    //        return @"Z";
+    //    else if([self searchResult:string searchText:@"能"])
+    //        return @"N";
+    //    else if([self searchResult:string searchText:@"乐"])
+    //        return @"Y";
+    //    else if([self searchResult:string searchText:@"单"])
+    //        return @"S";
+    //    else
+    //        return nil;
 }
 
 +(BOOL)searchResult:(NSString *)contactName searchText:(NSString *)searchT{
