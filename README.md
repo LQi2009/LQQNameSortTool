@@ -4,7 +4,7 @@
 <br>其中使用了一个开源的将汉字转换为拼音的工具类:`ChineseToPinyin`
 
 #接口
-这个工具只提供了一个工具,用于传入需要排序的字符串
+这个工具只提供了一个接口,用于传入需要排序的字符串
 
 ```
 + (NSArray*)LZSortDataByFirstLetterWithArray:(NSArray*)sourceArray isIncludeKeys:(BOOL)isKey;
