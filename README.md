@@ -1,4 +1,6 @@
 #LZSortTool
+##针对此工具,我重新修改了部分逻辑,使之能够排序NSObject的子类model,没有更新到这个目录下,具体可移步:[LZSortTool](https://github.com/LQQZYY/LZSortTool)
+##如有帮助,欢迎star或fork
 
 一个对汉字姓名进行按首字母分组排序的工具;
 <br>其中使用了一个开源的将汉字转换为拼音的工具类:`ChineseToPinyin`
